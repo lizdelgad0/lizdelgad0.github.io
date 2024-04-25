@@ -92,6 +92,18 @@
          flex:1;    
          }  
 
+         
+    .ricon{  
+        display:flex; 
+        max-width: 1200px;   
+        align-items: center;  
+         }     
+
+
+
+    .icon{  
+         flex:1;    
+         }  
 
          
     .boxes{  
@@ -102,23 +114,6 @@
 
   
 
-
-    .boxone{ 
-           text-align: left;    
-         }  
-
-  
-
-           
-    .boxtwo{  
-            text-align: center;      
-         }  
-
-         
-    .boxtwoimage{
-             width: 100%
-         }
-
     .text{  
         font-family: mionga; 
         font-style: normal;  
@@ -126,10 +121,13 @@
         color: 54320C;  
         }    
 
-         .backgroundone{
+    .backgroundone{
              background-color: f5f5f5;
          }
     
+    .boxspace{
+             margin: 15px 0px;
+         }
     </style>    
 
 </head>     
@@ -250,30 +248,32 @@
 
   
 <div class="backgroundone"> 
-  <section class="containerwidth">  
+<section class="containerwidth">   
+     <div class="othertopics">About Me </div>  
 
-    <div class="topics"> About Me </div>   
+    
+    <div class="row text boxes">
+            <div class="col-6"> mom me sister</div>
+        <div class="col-6"><img src="memomlela.jpg"></div>
+        
+        
+        
+        
+        
+            <div class="col-6 boxspace"> my dog jordan </div>  
+         <div class="col-6"> <img src="jordan.jpg"></div>  
 
-        <main class="boxes text">   
-            <article class="boxone">In this box i will be in forming you about me and my hobbies. I would like you to get to know me. this is for both professional and familiar knowledge. NEED HELP WITH CUTTING AND SIZING IMAGES TO FIT THE TEXT SUGGESTION: SHOULD I DO IMAGES WITH TEXT LIKE THE BOOTSRAP LAYOUT: LIKE PROFESSIONAL SECTION </article>  
+        
+        
 
- 
-            <article class="boxtwo boxtwoimage"> 
-                <img src="memomlela.jpg">
-                <img src="jordan.jpg">
-                <img src="thirdcoffee.jpg">
-                <img scr="mebooks.jpg"> 
-                <img scr="thrifting.jpg">
-            </article>  
+            <div class="col-6"> i have an addiction to coffee</div>  
+        <div class="col-6"> <img src="thirdcoffee.jpg"></div>  
 
+   
+        
+     </div>  
 
-      </main>  
-
-</section>    
-</div>
-  
-
-
+</section>
   
 
 <section class="containerwidth">   
@@ -283,7 +283,7 @@
         
 
             <div class="col-6"><b> Blue Hen</b> <br> 
-            <i> Server  NEEDS SPACE ON EACH "JOB"- BOOTSTRAP </i> <br> 
+            <i> Server</i> <br> 
             <b> CURRENT</b><br> 
                 
                 Answer food/menu related questions <br> 
@@ -310,7 +310,7 @@
         
         
         
-            <div class="col-6"> <b> Tios Restarant</b><br>  
+            <div class="col-6 boxspace"> <b> Tios Restarant</b><br>  
 
                 <i> Busser/Server</i> <br>  
 
@@ -396,12 +396,14 @@
 <div class="backgroundone">
     
 <section class="containerwidth">  
-    <div class="topics"> Social</div>   
-    <div class="text"> media work and socials will be posted here <br> 
-        NEED HELP WITH IDEAS- I WAS THINKING LONG ROWS VIRTICAL THAT SHOW CASES MY PLATFORMS AND OTHER DIGITAL WORK HERE- NEED TO ADD MORE SPACE TO REST OF PAGE. 
+    <div class="topics"> Social</div>
     
-    
-    </div>
+            <div class="ricon"> 
+                    <div class="icon"> <img src="pinterest%20.png"> </div>
+                    <div class="icon"> <img src="instagram%20.png"> </div>
+                    <div class="icon"> <img src="tiktok.png"> </div>
+                    <div class="icon"> <img src="facebook%20.png"> </div>
+            </div>
 </section>    
 
 </div>
