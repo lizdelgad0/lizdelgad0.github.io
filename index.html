@@ -31,7 +31,10 @@
         width: 100%;  
         }    
 
- 
+    .imageofme{
+        width: 60%;
+        margin: 10px 20px 20px 0px;
+    }
 
     .navbar{ 
         background-color:#73876B;   
@@ -47,7 +50,7 @@
  
 
     .backgroundone{
-             background-color: #73876B
+             background-color: #73876B;
          }
 
  
@@ -84,7 +87,7 @@
   
 
     .topics{  
-        font-family:libre caslon display;   
+        font-family:'Abril Fatface', serif;   
         font-style: normal;   
         font-size: 45px;   
         text-align: left;  
@@ -93,7 +96,7 @@
          }  
 
     .othertopics{  
-        font-family:libre caslon display;  
+        font-family:'Abril Fatface', serif; 
         font-style: normal;    
         font-size: 45px;   
         text-align: right;  
@@ -132,7 +135,7 @@
     .boxes{  
         border:1px solid;   
         border-color: white; 
-        padding: 5px; 
+        padding: 10px 10px 10px 10px; 
         margin: 0px 20px 20px 20px;
          }   
 
@@ -145,7 +148,7 @@
  
 
     .text{  
-        font-family: mionga; 
+        font-family: Poppins, sans-serif; 
         font-style: normal;  
         font-size: 16px;  
         color: black;
@@ -154,7 +157,7 @@
          
 
     .aboutmetext{
-        font-family: mionga; 
+        font-family: Poppins, sans-serif; 
         font-style: normal;  
         font-size: 16px;
         color: #c0c4c1;
@@ -164,6 +167,7 @@
 
     .professional{
          padding: 0px 15px 0px 15px;
+         margin: 20px;
          }
 
         
@@ -172,7 +176,7 @@
 
     .ricon{  
         display:flex; 
-        max-width: 1200px;   
+        width: 25%;
         align-items: center;  
          }     
 
@@ -181,6 +185,7 @@
     .icon{  
          flex:1;   
         padding-bottom: 20px;
+      
             
     } 
     .icon img{
@@ -197,6 +202,9 @@
          @media only screen and (min-width:900px){
              .aboutmetext{
                  font-size: 24px;
+             }
+             .boxes{  
+                 padding: 10px 10px 125px 10px; 
              }
          }
 
@@ -272,12 +280,6 @@
           <a class="nav-link" href="#social">Socials</a>  
         </li>  
 
-          
-        <li class="nav-item">    
-          <a class="nav-link" href="#home">Home</a>    
-        </li>  
-
- 
 
       </ul>
 
@@ -362,29 +364,31 @@
 <div class="backgroundone"> 
 <section id="aboutme" class="containerwidth">
 
-     <div class="topics">About Me </div>  
+    <div class="topics"> <b> About Me </b> </div>  
 
     
 
-<div class="row aboutmetext boxes">
+<div class="row aboutmetext ">
+
+<div class="col-6"><img src="imageofme.JPG" class="imageofme"></div>
+    
 
 <div class="col-6">
-
+<div class="boxes"> 
 I am Liz Delgado, 20 years old. I major in Communications and minor in English at Mercy Univirsity. <br>
 
 I am fluent in both English and Spanish. <br>
 
-I am the first to go to collge in my family. With my degree(s) I hope to get into Advertizing. <br>
+I am the first to go to collge in my family. With my degree(s) I hope to get into Advertising. <br>
 
 I have always been  interested in storytelling expecially short film. A company that has inspired my interest in this type of storytelling is Coca Cola and their short ads.
 
 </div>
-
+</div>  
   
 
     
 
-<div class="col-6"><img src="smallerme.jpg"></div>
 
 </div>  
 
@@ -404,9 +408,7 @@ I have always been  interested in storytelling expecially short film. A company 
 
  
 
-     <div class="othertopics">Professional Experience</div> 
-
- 
+        <div class="othertopics"> <b>Professional Experience </b></div> 
 
     <div class="row text professional">
 
@@ -416,7 +418,7 @@ I have always been  interested in storytelling expecially short film. A company 
 
                 <i> Campus Life Assistant </i><br> 
 
-            <b> Present</b> <br>
+            Current <br>
 
             Managed and created events for students <br>
 
@@ -436,7 +438,7 @@ I have always been  interested in storytelling expecially short film. A company 
 
             <i> Server</i> <br> 
 
-            <b> Present</b><br> 
+                Current<br> 
 
                 Answer food/menu related questions <br>
 
@@ -536,8 +538,8 @@ I have always been  interested in storytelling expecially short film. A company 
 
  
 
-    <div class="topics"> Social</div>
-
+    <div class="topics"> <b>  Social </b></div>
+    <div class="aboutmetext"> <i> EMAIL: ldelgado8@mercy.edu</i></div>
 
     <div class="ricon"> 
 
@@ -545,13 +547,11 @@ I have always been  interested in storytelling expecially short film. A company 
 
     <div class="icon"> <a href="https://www.instagram.com/"> <img src="instanew.png"> </a></div>
 
-    <div class="icon"> <a href="https://www.tiktok.com/en/"> <img src="tiktok.png"> </a> </div>
+    <div class="icon"> <a href="https://twitter.com/?lang=en"> <img src="twitter.png"> </a> </div>
 
     <div class="icon"> <a href="https://www.facebook.com/"> <img src="facebooknew.png"> </a></div>
 
- 
-
-            </div>
+    </div>
 
  
 
